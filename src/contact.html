@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kodex Africa</title>
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="/kodex-images/kodex-circle-logo.png" type="images/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/light/style.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/bold/style.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/thin/style.css" />
+</head>
+
+<body class="m-0 p-0 box-border font-Poppins">
+    <!-- navigation  -->
+    <nav
+        class="fixed w-full top-0 left-0 z-50 py-5 lg:px-16 px-5 bg-[#1b1b1b] flex items-center justify-between text-white">
+        <a href="/src/index.html"><img class="w-[120px] h-[39px]" src="/kodex-images/kodexafricaLogo.png.png"
+                alt="" /></a>
+        <div class="text-[#dad8da] text-sm hidden lg:flex space-x-14">
+            <ul class="hidden lg:flex items-center space-x-10">
+                <li>
+                    <a class="border-b-2 border-transparent hover:border-amber-600 hover:cursor-pointer transition-all delay-200 ease-in-out"
+                        href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="border-b-2 border-transparent hover:border-amber-600 hover:cursor-pointer transition-all delay-200 ease-in-out"
+                        href="about.html">About</a>
+                </li>
+                <div class="group relative ">
+
+                    <button
+                        class="border-b-2 border-transparent hover:border-amber-600 hover:cursor-pointer transition-all delay-200 ease-in-out">Our
+                        Subsidiaries<i class="ri-arrow-down-s-line"></i></button>
+
+                    <div class="w-[300px] absolute hidden  group-hover:block duration-200 px-4 py-5 bg-[#1d1d1d]">
+                        <a href="about.html#subsidiaries"
+                            class="w-full block px-8 py-4 text-sm text-white hover:bg-amber-600 rounded-lg   "
+                            style="text-decoration: none;">Kodex Academy</a></li>
+                        <a href="about.html#subsidiaries"
+                            class="w-full block px-8 py-4 text-sm text-white hover:bg-amber-600 rounded-lg"
+                            style="text-decoration: none;">Kodex Build</a></li>
+                        <a href="about.html#subsidiaries"
+                            class="w-full block px-8 py-4 text-sm text-white hover:bg-amber-600 rounded-lg "
+                            style="text-decoration: none;">Space NG</a></li>
+                    </div>
+                </div>
+                <li>
+                    <a class="border-b-2 border-transparent hover:border-amber-600 hover:cursor-pointer transition-all delay-200 ease-in-out"
+                        href="blog.html">Blog</a>
+                </li>
+                <li>
+                    <a class="border-b-2 border-transparent hover:border-amber-600 hover:cursor-pointer transition-all delay-200 ease-in-out"
+                        href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+            <div class="space-x-2">
+                <a href="/src/login.html"
+                    class="border border-[#e68815] px-5 py-2 rounded-lg hover:cursor-pointer hover:bg-[#e68815]">
+                    Sign In
+                </a>
+                <a href="/src/sign-up.html" class="px-5 py-2 bg-[#e68815] rounded-lg hover:cursor-pointer hover:bg-gray-950 ">
+                    Sign Up
+                </a>
+            </div>
+        </div>
+
+        <!-- mobile navbar -->
+        <div class="lg:hidden group ">
+            <button class="hover:cursor-pointer"><i class="ri-menu-line" style="color: white; font-size: 2.2rem"></i></button>
+
+            <div class="w-full h-screen p-16   bg-black text-[#dad8da] text-sm lg:flex flex-col absolute left-0 z-50 hidden  group-hover:block duration-200">
+                <ul class="lg:flex flex-col text-lg items-center space-x-10 space-y-6 ">
+                    <li>
+                        <a class="border-b-2 border-transparent hover:border-amber-600 hover:cursor-pointer transition-all delay-200 ease-in-out"
+                            href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="border-b-2 border-transparent relative group hover:border-amber-600 hover:cursor-pointer transition-all delay-200 ease-in-out"
+                            href="about.html">About</a>
+                    </li>
+
+                    <div class="relative group ">
+
+                        <button
+                            class="border-b-2 border-transparent hover:border-amber-600 hover:cursor-pointer transition-all delay-200 ease-in-out">Our
+                            Subsidiaries<i class="ri-arrow-down-s-line"></i></button>
+
+                        <div class="w-[300px] absolute hidden  hover:block duration-200 px-4 py-5 bg-[#1d1d1d]">
+                            <a href="about.html#subsidiaries"
+                                class="w-full block px-8 py-4 text-sm text-white hover:bg-amber-600 rounded-lg   "
+                                style="text-decoration: none;">Kodex Academy</a></li>
+                            <a href="about.html#subsidiaries"
+                                class="w-full block px-8 py-4 text-sm text-white hover:bg-amber-600 rounded-lg"
+                                style="text-decoration: none;">Kodex Build</a></li>
+                            <a href="about.html#subsidiaries"
+                                class="w-full block px-8 py-4 text-sm text-white hover:bg-amber-600 rounded-lg "
+                                style="text-decoration: none;">Space NG</a></li>
+                        </div>
+                    </div>
+
+                    <li>
+                        <a class="border-b-2 border-transparent hover:border-amber-600 hover:cursor-pointer transition-all delay-200 ease-in-out"
+                            href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a class="border-b-2 border-transparent hover:border-amber-600 hover:cursor-pointer transition-all delay-200 ease-in-out"
+                            href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <div class="space-x-2 my-8 ">
+                    <a href="/src/login.html"
+                        class="border border-[#e68815] px-5 py-2 rounded-lg hover:cursor-pointer hover:bg-[#e68815]">
+                        Sign In
+                    </a>
+                    <a href="/src/sign-up.html" class="px-5 py-2 bg-[#e68815] rounded-lg hover:cursor-pointer">
+                        Sign Up
+                    </a>
+                </div>
+                <div class="w-full mt-32 flex items-center justify-center space-x-4 ">
+                    <i class="ri-facebook-circle-line text-[#dddddd]"></i>
+                    <i class="ri-twitter-line text-[#dddddd]"></i>
+                    <i class="ri-linkedin-box-line text-[#dddddd]"></i>
+                    <i class="ri-instagram-line text-[#dddddd]"></i>
+                    <i class="ri-youtube-line text-[#dddddd]"></i>
+                    <i class="ri-tiktok-line text-[#dddddd]"></i>
+                    <i class="ri-copyright-line text-[#dddddd]"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main id="contact">
+        <!-- Need Assistance -->
+        <section
+            class="mt-20 pt-24 pb-6 px-4 lg:py-16 lg:px-12 flex flex-col-reverse lg:flex-row items-center justify-center gap-6">
+            <div class="w-full lg:w-1/2 flex flex-col gap-1 justify-center">
+                <h4 class="text-[#1b1b1b] text-sm font-light">
+                    24/7 Customer Support
+                </h4>
+                <h1 class="text-[#e68815] text-3xl font-extrabold py-1">
+                    Need Assistance? Contact Us
+                </h1>
+                <p class="text-[#3d3c3c] text-sm font-semibold -tracking-tight leading-relaxed mt-5">
+                    At Kodex Africa, we value your questions, feedback, and inquiries.
+                    We believe in fostering open communication with our customers and
+                    partners.
+                </p>
+            </div>
+            <div class="w-full lg:w-1/2 flex justify-center">
+                <img class="w-full lg:w-[60%] rounded-xl" src="/kodex-images/contact_us_image.jpeg" alt="" />
+            </div>
+        </section>
+
+        <!-- kodex map -->
+        <section class="p-4 bg-[#1b1b1b] relative w-full h-96">
+            <iframe
+                src="https://maps.google.com/maps?width=819&height=400&hl=en&q=KODEX&t=&z=15&ie=UTF8&iwloc=B&output=embed"
+                title="Kodex Africa" frameborder="0" allowfullscreen loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" class="w-full h-full border-0"></iframe>
+        </section>
+
+        <!-- Contact information -->
+        <section class="px-4 py-16 lg:px-16 lg:py-32 flex items-center">
+            <!-- form container  -->
+            <div class="w-full flex flex-col lg:flex-row items-center justify-center gap-10">
+                <div
+                    class="w-full lg:h-full lg:w-1/2 bg-[#1b1b1b] px-8 pt-10 pb-14 lg:px-12 lg:pt-12 lg:pb-40 rounded-xl">
+                    <h1 class="text-2xl text-[#f9f1e8] font-semibold mb-2">
+                        Contact Information
+                    </h1>
+                    <p class="text-md text-[#f9f1e8]">
+                        Say something to start a live chat!
+                    </p>
+                    <ul class="mt-16 flex flex-col gap-5 text-[#f9f1e8] text-sm">
+                        <li>
+                            <a class="border-b-2 border-transparent hover:border-amber-600 hover:cursor-pointer transition-all delay-100 ease-in-out"
+                                href=""><i class="ph-light ph-phone"></i>(+234)9031452508</a>
+                        </li>
+                        <li>
+                            <a class="border-b-2 border-transparent hover:border-amber-600 hover:cursor-pointer transition-all delay-100 ease-in-out"
+                                href="mailto:support@kodexafrica.com"><i
+                                    class="ph-light ph-envelope-simple"></i>support@kodexafrica.com</a>
+                        </li>
+                        <li>
+                            <i class="ph-light ph-map-pin-line"></i>
+                            <span>Plot No. A/127 Iyiagu Housing Estate, Awka, Anambra State
+                                Nigeria</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- contact form  -->
+                <div class="w-full lg:h-full lg:w-1/2">
+                    <h1 class="text-2xl text-[#232223] font-medium mb-1">
+                        Contact Form
+                    </h1>
+                    <p class="text-sm text-[#585757] mb-8">
+                        Need Assistance? Reach out to us
+                    </p>
+                    <form class="w-full lg:grid grid-cols-2 gap-x-10" action="">
+                        <div class="mb-4 space-y-1">
+                            <label class="block text-sm" for="name">Full Name</label>
+                            <input
+                                class="w-full px-1.5 py-2.5 text-sm border-1 border-black rounded-lg focus:border focus:outline-0 focus:border-[#e68815] bg-[#f9f1e8]"
+                                type="text" name="full-name" placeholder="Enter your name" />
+                        </div>
+                        <div class="mb-4 space-y-1">
+                            <label class="block text-sm" for="email">Email</label>
+                            <input
+                                class="w-full px-1.5 py-2.5 text-sm border-1 border-black rounded-lg focus:border focus:outline-0 focus:border-[#e68815] bg-[#f9f1e8]"
+                                type="email" name="email" placeholder="Enter your email" />
+                        </div>
+                        <div class="mb-4 space-y-1">
+                            <label class="block text-sm" for="phone">Phone Number</label>
+                            <input
+                                class="w-full px-1.5 py-2.5 text-sm border-1 border-black rounded-lg focus:border focus:outline-0 focus:border-[#e68815] bg-[#f9f1e8]"
+                                type="tel" name="phone" placeholder="Enter your phone number" />
+                        </div>
+                        <div class="mb-4 space-y-1">
+                            <label class="block text-sm" for="subject">Subject</label>
+                            <input
+                                class="w-full px-1.5 py-2.5 text-sm border-1 border-black rounded-lg focus:border focus:outline-0 focus:border-[#e68815] bg-[#f9f1e8]"
+                                type="text" name="subject" placeholder="Enter your subject" />
+                        </div>
+                        <div class="lg:col-span-2 mb-4 space-y-1">
+                            <label class="block text-sm" for="phone">Message</label>
+                            <textarea
+                                class="w-full h-24 px-1.5 py-2.5 text-sm border-1 border-black rounded-lg focus:border focus:outline-0 focus:border-[#e68815] bg-[#f9f1e8]"
+                                name="Messages" id="#">
+Type your message here</textarea>
+                        </div>
+                        <div class="w-full lg:col-span-2 text-end">
+                            <button class="px-10 py-3 bg-[#1d1d1d] text-[#dddddd] rounded-lg hover:bg-[#e68815]">
+                                Send
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer  -->
+    <footer class="bg-[#1b1b1b]">
+        <section class="px-6 py-20 lg:py-24 lg:px-16 flex flex-col lg:flex-row items-center justify-start">
+            <div class="w-full lg:w-[40%]">
+                <img src="/kodex-images/kodexafricaLogo.png.png" alt="kodexafricaLogo" />
+                <p class="text-[#dddddd] text-sm text-justify leading-7">
+                    At Kodex Africa, we are developing a pipeline of African tech
+                    talents equipped with the skills, support, and network that they
+                    need to solve African problems.
+                </p>
+            </div>
+            <div
+                class="w-full text-[#dddddd] flex flex-col lg:flex-row items-start justify-center gap-10 lg:gap-20 mt-10 lg:mt-32">
+                <div class="text-sm lg:text-xs leading-loose lg:w-1/5">
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <a class="border-b-2 border-transparent hover:border-amber-600 hover:cursor-pointer transition-all delay-100 ease-in-out"
+                        href="/src/index.html">Home</a><br />
+                    <a class="border-b-2 border-transparent hover:border-amber-600 hover:cursor-pointer transition-all delay-100 ease-in-out"
+                        href="about.html">About Us</a><br />
+                    <a class="border-b-2 border-transparent hover:border-amber-600 hover:cursor-pointer transition-all delay-100 ease-in-out"
+                        href="contact.html">contact Us</a><br />
+                    <a class="border-b-2 border-transparent hover:border-amber-600 hover:cursor-pointer transition-all delay-100 ease-in-out"
+                        href="login.html">Login</a><br />
+                    <a class="border-b-2 border-transparent hover:border-amber-600 hover:cursor-pointer transition-all delay-100 ease-in-out"
+                        href="#">Terms & Conditions</a><br />
+                    <a class="border-b-2 border-transparent hover:border-amber-600 hover:cursor-pointer transition-all delay-100 ease-in-out"
+                        href="#">Privacy Policy</a><br />
+                </div>
+                <div class="w-full lg:w-1/5 text-sm lg:text-xs leading-loose">
+                    <h3 class="text-lg font-semibold mb-4">Explore</h3>
+                    <a class="border-b-2 border-transparent hover:border-amber-600 hover:cursor-pointer transition-all delay-100 ease-in-out"
+                        href="about.html#subsidiaries">Kodex Academy</a><br />
+                    <a class="border-b-2 border-transparent hover:border-amber-600 hover:cursor-pointer transition-all delay-100 ease-in-out"
+                        href="about.html#subsidiaries">Kodex Build</a><br />
+                    <a class="border-b-2 border-transparent hover:border-amber-600 hover:cursor-pointer transition-all delay-100 ease-in-out"
+                        href="about.html#subsidiaries">The SpaceNg</a><br />
+                    <a class="border-b-2 border-transparent hover:border-amber-600 hover:cursor-pointer transition-all delay-100 ease-in-out"
+                        class="border-b-2 border-transparent hover:border-amber-600 hover:cursor-pointer transition-all delay-200 ease-in-out"
+                        href="#">Career</a><br />
+                </div>
+                <div class="w-full lg:w-1/5 text-sm lg:text-xs leading-loose list-none">
+                    <h3 class="text-lg font-semibold mb-4">Contact</h3>
+                    <li>Plot No. A/127 Iyiagu Housing Estate, Awka, Anambra State.</li>
+                    <li>
+                        <a class="border-b-2 border-transparent hover:border-amber-600 hover:cursor-pointer transition-all delay-100 ease-in-out"
+                            href="#">(+234)9031452508</a>
+                    </li>
+                    <li>
+                        <a class="border-b-2 border-transparent hover:border-amber-600 hover:cursor-pointer transition-all delay-100 ease-in-out"
+                            href="mailto:support@kodexafrica.com">support@kodexafrica.com</a>
+                    </li>
+                </div>
+            </div>
+        </section>
+
+        <hr class="text-[#dddddd]" />
+        <section
+            class="relative px-6 py-12 lg:py-10 lg:px-16 flex flex-col-reverse gap-6 lg:flex-row items-center justify-between">
+            <div>
+                <p class="text-[#e68815] text-xs">
+                    © 2025 Kodex Africa. All Rights Reserved.
+                </p>
+            </div>
+            <div class="social space-x-2">
+                <a href="https://web.facebook.com/kodexlimited?mibextid=LQQJ4d&_rdc=1&_rdr#"></a><i class="ri-facebook-circle-line text-[#dddddd] hover:cursor-pointer hover:text-[#e68815]"></a></i>
+                <i class="ri-twitter-line text-[#dddddd] hover:cursor-pointer hover:text-[#e68815]"></i>
+                <i class="ri-linkedin-box-line text-[#dddddd] hover:cursor-pointer hover:text-[#e68815]"></i>
+                <i class="ri-instagram-line text-[#dddddd] hover:cursor-pointer hover:text-[#e68815]"></i>
+                <i class="ri-youtube-line text-[#dddddd] hover:cursor-pointer hover:text-[#e68815]"></i>
+                <i class="ri-tiktok-line text-[#dddddd] hover:cursor-pointer hover:text-[#e68815]"></i>
+                <i class="ri-copyright-line text-[#dddddd] hover:cursor-pointer hover:text-[#e68815]"></i>
+            </div>
+
+            <a href="#contact" class="w-full fixed bottom-6 lg:bottom-16 right-6 lg:right-16 z-50   flex items-center justify-end  ">
+                <div
+                    class="h-[50px]  w-[50px] text-white bg-[#e68918] flex items-center justify-center rounded-full hover:bg-[#1d1d1d] hover:text-white">
+                    <i class="ph-light ph-arrow-up  text-2xl"></i>
+                </div>
+            </a>
+        </section>
+
+        
+    </footer>
+</body>
+
+</html>
